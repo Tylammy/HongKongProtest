@@ -1,0 +1,842 @@
+body,
+html {
+  height: 100%;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Bebas Neue", cursive;
+  line-height: 1.5em;
+  margin: 0em;
+  text-transform: none;
+  text-decoration: none;
+  text-align: left;
+  letter-spacing: normal;
+  color: #f3ffb9;
+  background-color: #c42021;
+  box-sizing: border-box;
+  word-spacing: normal;
+  line-height: 1.4;
+  outline: none;
+  vertical-align: baseline;
+  height: 100%;
+}
+
+h1 {
+  letter-spacing: 5px;
+  padding: 10px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Bungee Shade", cursive;
+  color: #f3ffb9;
+  text-align: center;
+}
+
+/*TODO: Change the font-family property to your linked font*/
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  color: #f3ffb9;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Bungee Shade", cursive;
+  color: #c42021;
+  text-align: center;
+}
+
+h4 {
+  letter-spacing: 2px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Bungee Shade", cursive;
+  color: #f3ffb9;
+  text-align: center;
+  line-height: normal;
+}
+
+h5 {
+  letter-spacing: 5px;
+  padding: 10px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Bungee Shade", cursive;
+  color: #f3ffb9;
+  text-align: center;
+  line-height: normal;
+}
+
+h6 {
+  color: #f3ffb9;
+  letter-spacing: 1px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 100px;
+  padding-left: 165px;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+}
+
+h7 {
+  /* Other Header*/
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: #f3ffb9;
+  line-height: normal;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h8 {
+  letter-spacing: 2px;
+  font-size: 45px;
+  color: #e4f58e;
+  line-height: normal;
+  padding: 10px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+date {
+  text-align: center;
+  color: #f3ffb9;
+  margin: 50px;
+}
+
+.motive {
+  color: #f3ffb9;
+}
+/*TODO: Change the color of a link when a person hovers over it*/
+p {
+  text-align: center;
+  color: #f3ffb9;
+  margin: 50px;
+  font-weight: 550;
+  font-family: "Poppins", sans-serif;
+}
+
+p a {
+  color: #f3ffb9;
+  text-decoration: none;
+}
+
+p2 {
+  text-align: left;
+}
+p14 {
+  lettering-spacing: 5px;
+  font-size: 24px;
+  padding-left: 98px;
+  padding-right: 98px;
+  color: #f3ffb9;
+  padding-bottom: 30px;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 550;
+}
+
+li {
+  text-align: center;
+  list-style-position: inside;
+  margin-right: 40px;
+}
+
+/* style all font icons */
+
+.media {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-53%, -50%);
+  display: flex;
+  justify-content: center;
+}
+
+.media2 {
+  position: absolute;
+  transform: translate(-53%, -50%);
+  display: flex;
+  flex: center;
+  justify-content: center;
+  margin-left: 450px;
+  margin-right: 0px;
+  margin-top: 50px;
+  padding-right: 30px;
+  padding-left: 500px;
+}
+
+.social-media {
+  list-style: none !important;
+  margin: 15px 15px;
+  display: inline-block;
+  font-size: 20px;
+  height: 1px;
+  width: 20px;
+  padding: 30px 30px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.social-media2 {
+  list-style: none !important;
+  margin: 10px 10px;
+  display: inline-block;
+  font-size: 20px;
+  height: 1px;
+  width: 35px;
+  padding: 20px 20px;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+/* Cursor */
+* {
+  cursor: url(
+      https://cdn.glitch.com/d4645794-4722-4f9f-a156-dc8641401a57%2Ficonfinder_113_Ensign_Flag_Nation_hongkong_2634309.png?v=1593041755552
+    ),
+    default;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 40px;
+  height: 25px;
+  width: 30px;
+  padding-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+  color: #c42021;
+  border: 1px solid #c42021;
+  transition: 0.5s;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  display: flex;
+  justify-content: center;
+  background: #f3ffb9;
+  color: #800000;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #f3ffb9;
+  color: #800000;
+  display: flex;
+  justify-content: center;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #f3ffb9;
+  color: #800000;
+  display: flex;
+  justify-content: center;
+}
+
+/* Reddit */
+.fa-reddit {
+  background: #f3ffb9;
+  color: #800000;
+  display: flex;
+  justify-content: center;
+}
+
+/* Youtube */
+.fa-youtube {
+  background: #f3ffb9;
+  color: #800000;
+  display: flex;
+  justify-content: center;
+}
+
+/************************************************/
+/*************** CSS FOR NAV BAR ****************/
+/************************************************/
+
+/* All of these TODOs are optional. You should change the styling based on your mockup */
+
+.nav2 {
+  position: relative;
+  background: linear-gradient(to top, #c42021, red, red, #c42021);
+  width: 200;
+}
+
+/* TODO (optional): Change the background color and/or border style */
+nav3 {
+  float: center;
+  text-align: right;
+  display: flex;
+  flex: space-between;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", cursive;
+}
+
+nav2 {
+  float: center;
+  text-align: right;
+  display: flex;
+  flex: space-between;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", cursive;
+}
+
+nav {
+  float: center;
+  text-align: right;
+  display: flex;
+  flex: space-between;
+  justify-content: flex-end;
+  font-family: "Bebas Neue", cursive;
+}
+
+ul.nav-bar2 {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5px;
+  background-color: #800000;
+  opacity: 0.9;
+}
+
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.5px;
+  background-color: #c42021;
+}
+
+/* TODO (optional): Change the font size*/
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 11px;
+
+  position: relative;
+}
+
+li.nav2 {
+  /* Styling for the <li class="nav"> element */
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 11px;
+
+  position: relative;
+}
+
+li.nav3 {
+  /* Styling for the <li class="nav"> element */
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 11px;
+
+  position: relative;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #f3ffb9; /* Text of the Nav Bar */
+  text-align: center;
+  margin: auto auto;
+  padding: 14px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav2 a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #f3ffb9; /* Text of the Nav Bar */
+  text-align: center;
+  margin: auto auto;
+  padding: 14px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav3 a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #f3ffb9; /* Text of the Nav Bar */
+  text-align: center;
+  margin: auto auto;
+  padding: 14px 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  color: #c42021;
+  text-align: center;
+}
+
+li.nav2 a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  color: #c42021;
+  text-align: center;
+}
+
+li.nav3 a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  color: #800000;
+  text-align: center;
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #f3ffb9;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav2 a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #f3ffb9;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav3 a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: #f3ffb9;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 75%;
+  text-align: center;
+}
+
+nav2 a:hover::before {
+  width: 75%;
+  text-align: center;
+}
+
+nav3 a:hover::before {
+  width: 75%;
+  text-align: center;
+}
+
+/*---------Navagation Bar---------*/
+
+header {
+  background: #f3ffb9; /* Color of the background header! */
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/************************************************/
+/*********** CSS FOR FLEXBOX HEADING ************/
+/************************************************/
+
+/* TODO: Review the CSS properties to the flexbox container for title and intro text */
+.flex-container {
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+  opacity: 0.9;
+  /* Design properties */
+  background-color: #c42021;
+  /* opacity: .4;
+  padding: 5px;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: 20%; /* Change this value to move the box up or down */
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
+.heading-home {
+  padding: 2%;
+  margin-top: 0px;
+  color: #f3ffb9;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 50px;
+  text-align: center;
+  font-family: "Bebas Neue", cursive; /* DON'T FORGET TO ADD A FONT FAMILY< CHRISTTY! */
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
+.intro-text {
+  background-color: #800000; /* Add your own background color */
+  padding: 4%;
+  padding-bottom: 20px;
+  margin: 3%;
+  margin-bottom: 40px;
+  color: #f3ffb9; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
+  text-align: center;
+  border-style: solid;
+  border-color: #f3ffb9;
+  opacity: 1;
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/************************************************/
+/*************** PARALLAX SCROLL ****************/
+/************************************************/
+
+/*-----------TEXT SECTIONS-----------*/
+
+/* TODO (optional): Change the background color and/or text alignment */
+
+.text-section {
+  background-color: #800000;
+  padding: 20px 45px;
+  margin: 35px;
+  text-align: center;
+}
+
+/*---------image styling for about and motivation page*/
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+/* TODO: Add the CSS selector for each image to the collective image rule set */
+
+.main-message,
+.image-one,
+.image-two,
+.image-three,
+.image-four {
+  position: sticky;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #43d6b9ff;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+
+  /* TODO: Add the property to create the parallax scrolling effect here */
+  background-attachment: fixed;
+}
+
+/* TODO: Replace the current image URL with your own. This is the top image on your homepage. */
+.main-message {
+  background-image: url("https://images.unsplash.com/photo-1590341279033-60c7dcd15db0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjQ3MzMyfQ&auto=format&fit=crop&w=1950&q=80");
+}
+
+/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+.image-one {
+  background-image: url("https://images.pexels.com/photos/2833366/pexels-photo-2833366.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.image-two {
+  background-image: url("https://images.pexels.com/photos/2831011/pexels-photo-2831011.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.image-three {
+  background-image: url("https://images.pexels.com/photos/2833383/pexels-photo-2833383.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
+.image-four {
+  background-image: url("https://images.unsplash.com/photo-1572346741445-26cf336f702b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1635&q=80");
+}
+
+.about-image {
+  position: center;
+}
+
+/* TODO: Add more background images by repeating the process above */
+
+/*---------Navagation Bar---------*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  position: absolute;
+  padding: 0px 0px;
+  float: left;
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  flex: space-between;
+  display: flex;
+}
+
+/******************************************************/
+/***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
+/******************************************************/
+
+/* TODO: Add a breakpoint if the screen is 700px or less */
+
+@media screen and (max-width: 700px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+
+.footer {
+  background-image: url("https://media.giphy.com/media/7qTbLwBEBncXhMUCQh/giphy.gif");
+  background-size: cover;
+
+  height: 200px;
+  padding: 40px;
+  margin: 0px;
+}
+
+p2 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-color: #f3ffb9;
+}
+
+p3 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  font-style: normal;
+  font-color: #f3ffb9;
+}
+
+@media all and (max-width: 480px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+
+@media print and (max-width: 480px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+
+@media speech and (max-width: 480px) {
+  .flex-container {
+    flex-wrap: wrap;
+    top: 20%;
+  }
+}
+
+//* TODO: Add additional breakpoints based on your website's design */
+
+/* -- timeline -- */
+.c-container {
+  margin: auto;
+  width: 93%;
+  position: relative;
+  z-index: 1;
+}
+
+.card-view {
+  -webkit-box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  padding: 22px;
+  margin-bottom: 20px;
+  background: #800000;
+}
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.spacer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.bg-gray {
+  background: #800000;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.flex-row .flex-col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* common css up */
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.timeline li.right {
+  margin-left: auto;
+}
+.timeline li:first-child {
+  margin-top: 0;
+}
+.timeline li {
+  width: 47%;
+  position: relative;
+  margin-top: 50px;
+}
+.timeline:before {
+  content: "";
+  width: 4px;
+  height: 100%;
+  background: #800000;
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.timeline li:before {
+  content: "";
+  --size: 16px;
+  width: var(--size);
+  height: var(--size);
+  background: #00796B;
+  display: block;
+  position: absolute;
+  left: -48px;
+  border-radius: 50%;
+}
+.time-thumb-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+.time-thumb-row .time-content {
+  margin-left: 14px;
+}
+.time-thumb-row .time-content h4 {
+  margin: 0;
+  color: #800000;
+  font-weight: 600;
+  font-size: 17px;
+}
+.time-thumb-row .time-content time {
+  font-size: 14px;
+  color: #666666;
+}
+.timeline li.left:before {
+  left: inherit;
+  right: -48px;
+}
+.width100 {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fade-in[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  -webkit-transform: translateY(6rem) scale(0.93);
+  transform: translateY(6rem) scale(0.93);
+  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fade-in-right[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  -webkit-transform: translatex(6rem) scale(0.93);
+  transform: translatex(6rem) scale(0.93);
+  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.fade-in-left[data-scroll] {
+  opacity: 0;
+  will-change: transform, scale, opacity;
+  -webkit-transform: translatex(-6rem) scale(0.93);
+  transform: translatex(-6rem) scale(0.93);
+  transition: all 1.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.fade-in[data-scroll="in"],
+.fade-in-right[data-scroll="in"],
+.fade-in-left[data-scroll="in"] {
+  opacity: 1;
+  -webkit-transform: translateY(0) scale(1);
+  transform: translateY(0) scale(1);
+}
+
+//* Action Button *//
