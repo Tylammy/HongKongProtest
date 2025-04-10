@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- TODO: Update the heading with the name of your website -->
+    <title>Our Motivation</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheets -->
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/take-action.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- TODO: Add any links to Google font families here -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="logo">
+            <nav>
+              <a href="/"
+                ><img
+                  src="https://cdn.pixabay.com/photo/2013/07/13/14/15/hong-kong-162316_1280.png"
+                  width="190"
+                  height="120"
+                  style="z-index: 100; position: absolute;"
+              /></a>
+            </nav>
+          </div>
+          <nav>
+            <ul class="nav-bar2">
+              <li class="nav"><a href="about.html">About</a></li>
+              <li class="nav"><a href="motivation.html">Motivation</a></li>
+              <li class="nav2"><a href="take-action.html">Take Action</a></li>
+              <li class="nav"><a href="faq.html">FAQ</a></li>
+              <li class="nav"><a href="other.html">Other</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="motivation">
+      <h1>Our Motivation</h1>
+    </div>
+
+    <div class="">
+      <img
+        src="https://images.pexels.com/photos/4199280/pexels-photo-4199280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        width="600px"
+        height="400px"
+      />
+    </div>
+
+    <div class="motive">
+      <p>
+        We care about the Hong Kong protests because these protests determine
+        the future of human rights and the future of democracy in Hong Kong. The
+        stakes are extremely high as millions of Hongkongers could lose both
+        their human rights and democratic freedoms. Many Hongkongers have called
+        for international involvement and support for Hong Kong's democracy,
+        however, there hasn't been a lot of international traction. Therefore,
+        it's important that we stand with Hong Kong and support them in this
+        fight against China, one of the most powerful countries on Earth.
+      </p>
+    </div>
+
+    <head>
+      <link rel="stylesheet" type="text/css" hef="style.css" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+    </head>
+    <div class="footer">
+      <p2>
+        Check out the Social Medias!
+      </p2>
+      <body>
+        <div class="media2">
+          <ul id="footer-social">
+            <menu class="social-media2"
+              ><a
+                href="https://www.facebook.com/standwithhk/?__tn__=%2Cd%2CP-R&eid=ARCyaiRFOn0c5SDKHakpgQaRxoCm-6Rmi94wnNL8fsg6Xu6KrnMuXEw0F0kvgMSeNbijQQ7BMgzlM6aV"
+                class="fa fa-facebook"
+              ></a
+            ></menu>
+            <menu class="social-media2"
+              ><a
+                href="https://twitter.com/Stand_with_HK"
+                class="fa fa-twitter"
+              ></a
+            ></menu>
+            <menu class="social-media2"
+              ><a
+                href="https://instagram.com/standwithhongkongers?igshid=41jh2xepjsa5"
+                class="fa fa-instagram"
+              ></a
+            ></menu>
+            <menu class="social-media2"
+              ><a
+                href="https://www.reddit.com/r/HongKong/"
+                class="fa fa-reddit"
+              ></a
+            ></menu>
+            <menu class="social-media2"
+              ><a
+                href="https://www.youtube.com/channel/UCyi42Y5o1ksO_yFItyHW7Jw"
+                class="fa fa-youtube"
+              ></a
+            ></menu>
+          </ul>
+        </div>
+      </body>
+    </div>
+  </body>
+</html>
