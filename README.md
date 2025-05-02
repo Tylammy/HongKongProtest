@@ -1,6 +1,6 @@
 # The Hong Kong Protests – A Digital Chronicle
 
-![Website Screenshot](https://user-images.githubusercontent.com/yourusername/yourimage.png](https://github.com/Tylammy/HongKongProtest/blob/main/HongKongProtest.png) 
+![Website Screenshot](https://github.com/Tylammy/HongKongProtest/blob/main/HongKongProtest.png) 
 
 ## Live Site
 [hong-kong-protest.glitch.me](https://hong-kong-protest.glitch.me/)
